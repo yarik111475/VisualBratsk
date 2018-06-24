@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using VisualBratsk.Forms;
+
 namespace VisualBratsk {
     static class Program {
         /// <summary>
@@ -13,7 +15,7 @@ namespace VisualBratsk {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
         }
     }
 }
